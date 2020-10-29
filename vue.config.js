@@ -9,4 +9,6 @@ module.exports = {
     pages: {
         index: 'src/main.js',
     },
+    publicPath:
+        process.env.NODE_ENV === 'production' ? '/peter-and-daisy/' : '/',
 };
